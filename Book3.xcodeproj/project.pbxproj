@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA423453074E10A9023F5F10 /* Pods_Book3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C8E249F71A5974F0521E44 /* Pods_Book3.framework */; };
 		E8FEE2DF228A93DA0063B6C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FEE2DE228A93DA0063B6C7 /* AppDelegate.swift */; };
-		E8FEE2E1228A93DA0063B6C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FEE2E0228A93DA0063B6C7 /* ViewController.swift */; };
 		E8FEE2E4228A93DA0063B6C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8FEE2E2228A93DA0063B6C7 /* Main.storyboard */; };
 		E8FEE2E6228A93E30063B6C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8FEE2E5228A93E30063B6C7 /* Assets.xcassets */; };
 		E8FEE2E9228A93E30063B6C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8FEE2E7228A93E30063B6C7 /* LaunchScreen.storyboard */; };
 		E8FEE2F4228A93E30063B6C7 /* Book3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FEE2F3228A93E30063B6C7 /* Book3Tests.swift */; };
 		E8FEE2FF228A93E30063B6C7 /* Book3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FEE2FE228A93E30063B6C7 /* Book3UITests.swift */; };
+		E8FEE30D228AB0C10063B6C7 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FEE30C228AB0C10063B6C7 /* FirstTableViewController.swift */; };
+		E8FEE30F228AB30F0063B6C7 /* UserInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FEE30E228AB30F0063B6C7 /* UserInfoManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C517F0C0B4B2452E88FDA95 /* Pods-Book3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Book3.debug.xcconfig"; path = "Target Support Files/Pods-Book3/Pods-Book3.debug.xcconfig"; sourceTree = "<group>"; };
+		6EE8D1020C42595A1F55829B /* Pods-Book3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Book3.release.xcconfig"; path = "Target Support Files/Pods-Book3/Pods-Book3.release.xcconfig"; sourceTree = "<group>"; };
+		75C8E249F71A5974F0521E44 /* Pods_Book3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Book3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FEE2DB228A93DA0063B6C7 /* Book3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Book3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FEE2DE228A93DA0063B6C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E8FEE2E0228A93DA0063B6C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8FEE2E3228A93DA0063B6C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8FEE2E5228A93E30063B6C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8FEE2E8228A93E30063B6C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		E8FEE2FA228A93E30063B6C7 /* Book3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Book3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FEE2FE228A93E30063B6C7 /* Book3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book3UITests.swift; sourceTree = "<group>"; };
 		E8FEE300228A93E30063B6C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8FEE30C228AB0C10063B6C7 /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		E8FEE30E228AB30F0063B6C7 /* UserInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA423453074E10A9023F5F10 /* Pods_Book3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E876CAA6A8729C633B720A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75C8E249F71A5974F0521E44 /* Pods_Book3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CC618C0BF31CEDF0843FE63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C517F0C0B4B2452E88FDA95 /* Pods-Book3.debug.xcconfig */,
+				6EE8D1020C42595A1F55829B /* Pods-Book3.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E8FEE2D2228A93DA0063B6C7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +105,8 @@
 				E8FEE2F2228A93E30063B6C7 /* Book3Tests */,
 				E8FEE2FD228A93E30063B6C7 /* Book3UITests */,
 				E8FEE2DC228A93DA0063B6C7 /* Products */,
+				8CC618C0BF31CEDF0843FE63 /* Pods */,
+				4E876CAA6A8729C633B720A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +124,12 @@
 			isa = PBXGroup;
 			children = (
 				E8FEE2DE228A93DA0063B6C7 /* AppDelegate.swift */,
-				E8FEE2E0228A93DA0063B6C7 /* ViewController.swift */,
 				E8FEE2E2228A93DA0063B6C7 /* Main.storyboard */,
 				E8FEE2E5228A93E30063B6C7 /* Assets.xcassets */,
 				E8FEE2E7228A93E30063B6C7 /* LaunchScreen.storyboard */,
 				E8FEE2EA228A93E30063B6C7 /* Info.plist */,
+				E8FEE30C228AB0C10063B6C7 /* FirstTableViewController.swift */,
+				E8FEE30E228AB30F0063B6C7 /* UserInfoManager.swift */,
 			);
 			path = Book3;
 			sourceTree = "<group>";
@@ -132,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8FEE303228A93E30063B6C7 /* Build configuration list for PBXNativeTarget "Book3" */;
 			buildPhases = (
+				11D4E8AF5293A832BAC25BB4 /* [CP] Check Pods Manifest.lock */,
 				E8FEE2D7228A93DA0063B6C7 /* Sources */,
 				E8FEE2D8228A93DA0063B6C7 /* Frameworks */,
 				E8FEE2D9228A93DA0063B6C7 /* Resources */,
+				0074909A5901B5EB1D1BC5CD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +280,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0074909A5901B5EB1D1BC5CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Book3/Pods-Book3-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Book3/Pods-Book3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11D4E8AF5293A832BAC25BB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Book3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E8FEE2D7228A93DA0063B6C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8FEE2E1228A93DA0063B6C7 /* ViewController.swift in Sources */,
 				E8FEE2DF228A93DA0063B6C7 /* AppDelegate.swift in Sources */,
+				E8FEE30D228AB0C10063B6C7 /* FirstTableViewController.swift in Sources */,
+				E8FEE30F228AB30F0063B6C7 /* UserInfoManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,11 +507,13 @@
 		};
 		E8FEE304228A93E30063B6C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C517F0C0B4B2452E88FDA95 /* Pods-Book3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CTAG6SF7M7;
 				INFOPLIST_FILE = Book3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +527,13 @@
 		};
 		E8FEE305228A93E30063B6C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE8D1020C42595A1F55829B /* Pods-Book3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CTAG6SF7M7;
 				INFOPLIST_FILE = Book3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
